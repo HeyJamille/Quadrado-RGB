@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,   
+    initial-scale=1.0">
+    <title>Usando o elemento range</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="controle">
+        <label>Dimensões</label><br>
+        Largura: <input id="iptLargura"           
+        oninput="alterarLargura()" type="range" min="0"           max="100">
+        <label id="lblLargura"></label> 
+        <br>
+        Altura: <input id="iptAltura"                   
+        oninput="alterarAltura()" type="range" min="0" 
+        max="100">
+        <label id="lblAltura"></label>
+        <hr>
+      
+        <label>Distância</label><br>
+        Topo: <input id="iptTopo" oninput="alterarTopo()"         type="range" min="0" max="100" >
+        <label id="lblTopo"></label> 
+        <br>
+        Esquerda: <input id="iptEsquerda"         
+        oninput="alterarEsquerda()" type="range" min="0" 
+        max="100">
+        <label id="lblEsquerda"></label>
+        <hr>
+
+        <label>Cores</label><br>
+        Vermelho: <input id="iptVermelho"  
+        oninput="alterarVermelho()" type="range"                  min="0" max="255" value="0">
+        <label id="lblVermelho"></label> 
+        <br>
+        Verde: <input id="iptVerde"     
+        oninput="alterarVerde()" type="range" min="0" 
+        max="255" value="0">
+        <label id="lblVerde"></label>
+        <br>
+        Azul: <input id="iptAzul"   
+        oninput="alterarAzul()" type="range" min="0" 
+        max="255" value="0">
+        <label id="lblAzul"></label>
+
+        <hr>
+        <div id="box"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

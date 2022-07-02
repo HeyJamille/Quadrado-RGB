@@ -1,0 +1,25 @@
+body{
+  background-color: grey;
+  overflow: hidden;
+}
+
+#box{
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+#controle{
+  height: 400px;
+  text-align: center;
+  margin: 4%;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 6%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25%;
+}
+
+
+
